@@ -1,0 +1,382 @@
+/* MOBIL */
+/* FORSIDE */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* container over navbar */
+.overbox{
+    padding: 30px;
+    background-color: #ebcec5;
+}
+
+/* logo */
+.overbox img{
+    height: 120px;
+}
+
+/* mobile navbar */
+.navbar1{
+    background-color: white;
+    border-radius: 2px;
+    border: white;
+}
+
+/* teksten i navbaren */
+.nav-item{
+    text-align: center;
+}
+
+/* når musen føres over */
+.nav-item:hover{
+    background-color: #ebcec5;
+}
+
+/* billede under navbar */
+.mb-3{
+    opacity: 70%;
+}
+
+/* boks på forside */
+.card-body1{
+    background-color:#ebcec5;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* overskrift i box */
+.card-body1 h5{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* p tekst i box */
+.card-text1{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* container som cards ligger i ved mobil og tablet */
+.container{
+    display: block;
+}
+
+/* cards */
+.card1{
+    background-color: #7c8b8b;
+    padding: 8px;
+}
+
+/* cards tekst */
+.card-text{
+    color: white;
+    font-size: 18px;
+}
+
+/* overskrift (følg med på instagram)*/
+.insta{
+    background-color: #ebcec5;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+/* overskrift h1 (følg med på instagram)*/
+.insta h1{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* galleri slidehow */
+.gallery-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+.gallery {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+.gallery img {
+    width: 330px;
+    height: auto; 
+    margin-right: 10px; 
+  }
+
+  /* footer */
+.footer{
+    background-color: #ebcec5;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.indhold{
+    padding: 20px;
+    color: white;
+}
+
+/* ikoner */
+.iconer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    color: #000000;
+}
+
+/* linje */
+.linje{
+    height: 5px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+/* copyright tekst */
+.footer h5{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #000000;
+}
+
+/* SIDEN MED HÆKLEOPSKRIFTER ------------------------------------------------------------------------------------------------------------ */
+
+/* titlen i boksen */
+.card-title{
+    background-color: #ebcec5;
+    height: 60px;
+    color: #000000;
+}
+
+/* card */
+.card2{
+    background-color: #7c8b8b;
+    display:block;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* card billeder */
+.card2 img{
+    width: 370px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* får teksten til at være venstre centreret */
+.card2 .card-body2{
+    text-align: left;
+    color: white;
+}
+
+.card-text2{
+    /* laver margin i top, sider og bund så teksten ikke går helt ud til siderne */
+    margin: 5px 25px 20px;
+    font-size: 16px;
+}
+
+/* titlen i cards */
+.card-title2{
+    height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* det kort der vises på desktop forsvinder */
+.tabletcard{
+    display: none;
+    background-color: #7c8b8b;
+}
+
+/* lagt få ord i en span klasse så jeg kan style det */
+.highlight{
+    font-size: 18px;
+    font-weight: 500
+    }
+
+
+/* TABLET ------------------------------------------------------------------------------------------------------------------------------------------*/ 
+@media only screen and (min-device-width: 768px){
+
+/* FORSIDE */
+/* container over navbar */
+.overbox img{
+    height: 150px;
+}
+
+/* navbar */
+.navbar1{
+    background-color: white;
+    border-radius: 2px;
+    border: white;
+}
+
+/* tekst i navbar */
+.nav-item{
+    font-size: 18px;
+}
+
+/* tekst i card */
+.card-text{
+    font-size: 19px;
+}
+
+/* overskrift i box */
+.card-body1 h5{
+    font-size: 23px;
+}
+
+/* p tekst i box */
+.card-text1{
+    font-size: 19px;
+}
+
+/* cards tekst */
+.card-text{
+    font-size: 19px;
+}
+
+/* overskrift (følg med på instagram)*/
+.insta{
+    height: 60px;
+}
+
+/* overskrift h1 (følg med på instagram)*/
+.insta h1{
+    font-size: 19px;
+}
+
+  /* footer */
+.footer{
+    height: 160px;
+}
+
+.iconer{
+    font-size: 40px;
+  
+}
+.linje{
+    width: 350px; 
+}
+
+/* HÆKLEOPSKRIFTER */
+
+
+.card-text2{
+    font-size: 18px;
+}
+
+/* titlen i cards */
+.card-title2{
+    font-size: 21px;
+}
+
+/* lagt få ord i en span klasse så jeg kan style det */
+.highlight{
+    font-size: 19px;
+    }
+
+/* card billeder */
+.card2 img{
+    width: 600px;
+}
+
+}
+
+/* DESKTOP -------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width: 1024px){
+/* FORSIDE */
+/* container over navbar */
+.overbox img{
+    height: 180px;
+}
+
+/* tekst i navbar */
+.nav-item{
+    font-size: 21px;
+}
+
+/* tekst i card */
+.card-text{
+    font-size: 21px;
+}
+
+/* overskrift h1 (følg med på instagram)*/
+.insta h1{
+    font-size: 21px;
+}
+
+/* HÆKLEOPSKRIFTER */
+
+/* container som cards ligger i ved mobil og tablet */
+.container{
+    display: none;
+}
+
+/* det kort der vises på desktop vises */
+.tabletcard{
+    display: block;
+    margin: 30px 40px;
+}
+
+/* de kort der vises på mobil forsvinder */
+.card2{
+    display: none;
+}
+
+.card3{
+    background-color: #7c8b8b;
+}
+
+.card-title3{
+    color:white;
+    margin: 20px 40px 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 670;
+}
+
+/* tekst i kort */
+.card-text3{
+    color: #ffffff;
+    /* laver margin i top, bund og sider så teksten ikke går helt ud til kanterne */
+    margin: 20px 40px 25px;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* lagt få ord i en span klasse så jeg kan style det */
+.highlight{
+font-size: 23px;
+font-weight: 500
+}
+
+.hest{
+font-size: 23px;
+font-weight: 500;
+text-decoration:underline;
+}
+
+.card3 img{
+    margin: 25px 20px 20px 20px;
+}
+
+
+
+
+}
